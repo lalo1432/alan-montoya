@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alan Montoya | Arte & Tours Históricos Mexicas en CDMX</title>
+  <meta name="description" content="Alan Montoya, artista visual y guía cultural. Tours históricos sobre los mexicas por el Centro Histórico, Tlatelolco, Templo Mayor y alrededores de CDMX." />
+  <meta name="theme-color" content="#111111" />
+  <meta property="og:title" content="Alan Montoya | Arte & Tours Históricos Mexicas" />
+  <meta property="og:description" content="Recorre CDMX con un guía especializado en cultura mexica. Grupos pequeños, fechas abiertas y experiencias privadas." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --bg:#0b0b0b; --fg:#ffffff; --muted:#c9c9c9; --brand:#e2b714; --card:#121212; --stroke:#2a2a2a; --radius:18px; --pad:18px; --maxw:1120px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; background:var(--bg); color:var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial; line-height:1.5}
+    img{max-width:100%; display:block; border-radius:12px}
+    a{color:inherit; text-decoration:none}
+    .container{max-width:var(--maxw); margin:0 auto; padding:0 var(--pad)}
+    header{position:sticky; top:0; z-index:30; backdrop-filter:saturate(150%) blur(8px); background:rgba(11,11,11,.7); border-bottom:1px solid var(--stroke)}
+    .nav{height:64px; display:flex; align-items:center; justify-content:space-between}
+    .brand{display:flex; align-items:center; gap:12px; font-weight:700}
+    .brand .dot{width:12px; height:12px; background:var(--brand); border-radius:50%}
+    .menu{display:flex; gap:16px; flex-wrap:wrap}
+    .btn{display:inline-block; padding:10px 16px; border:1px solid var(--brand); border-radius:999px; color:var(--bg); background:var(--brand); font-weight:600}
+    .btn.ghost{background:transparent; color:var(--fg); border-color:var(--stroke)}
+
+    .hero{padding:72px 0 40px;}
+    .grid{display:grid; grid-template-columns:1.2fr 1fr; gap:24px; align-items:center}
+    h1{font-size:clamp(28px,4.6vw,54px); line-height:1.1; margin:0 0 12px}
+    p.lead{font-size:clamp(16px,2.2vw,20px); color:var(--muted); margin:0 0 18px}
+    .tag{display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border:1px solid var(--stroke); border-radius:999px; color:var(--muted); font-size:12px}
+
+    .section{padding:56px 0}
+    .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}
+    .card{background:var(--card); border:1px solid var(--stroke); border-radius:var(--radius); padding:18px}
+    .card h3{margin:0 0 6px}
+    .meta{color:var(--muted); font-size:14px}
+
+    .about{display:grid; grid-template-columns:1fr 1fr; gap:24px}
+
+    .gallery{display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
+
+    .table{width:100%; border-collapse:collapse; overflow:hidden; border-radius:14px; border:1px solid var(--stroke)}
+    .table th,.table td{padding:12px 14px; border-bottom:1px solid var(--stroke); text-align:left}
+    .table th{background:#181818}
+
+    .cta{background:#111; border-top:1px solid var(--stroke); border-bottom:1px solid var(--stroke); padding:48px 0; text-align:center}
+
+    form{display:grid; gap:12px; max-width:640px; margin:0 auto}
+    input, textarea, select{padding:12px 14px; border:1px solid var(--stroke); border-radius:12px; background:#0f0f0f; color:var(--fg); font:inherit}
+    textarea{min-height:120px}
+
+    footer{padding:28px 0; color:var(--muted); border-top:1px solid var(--stroke)}
+
+    .whatsapp{position:fixed; right:16px; bottom:16px; z-index:40}
+
+    @media (max-width:920px){
+      .grid,.about{grid-template-columns:1fr}
+      .cards,.gallery{grid-template-columns:1fr}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alan Montoya",
+    "jobTitle": "Artista visual y guía cultural",
+    "description": "Tours históricos sobre cultura mexica en CDMX y alrededores.",
+    "url": "https://alanmontoya.mx",
+    "sameAs": ["https://instagram.com/usuario", "https://www.facebook.com/usuario"],
+    "makesOffer": {
+      "@type": "Offer",
+      "name": "Tour histórico mexica",
+      "priceSpecification": {"@type":"PriceSpecification","priceCurrency":"MXN","price":"500"}
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="dot"></span> Alan Montoya</div>
+      <nav class="menu">
+        <a href="#tours">Tours</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#galeria">Galería</a>
+        <a href="#preguntas">FAQ</a>
+        <a href="#reservar" class="btn">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container grid">
+      <div>
+        <div class="tag">Arte + Historia · Cultura Mexica en contexto</div>
+        <h1>Experiencias históricas mexicas en CDMX</h1>
+        <p class="lead">Recorre Templo Mayor, Tlatelolco, y el corazón del antiguo México-Tenochtitlan con un artista visual que narra la ciudad desde sus símbolos, códices y vestigios.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap">
+          <a href="#tours" class="btn">Ver tours disponibles</a>
+          <a href="#reservar" class="btn ghost">Cotizar experiencia privada</a>
+        </div>
+      </div>
+      <div>
+        <img src="https://picsum.photos/seed/teno/900/560" alt="Recorrido histórico por el Centro de CDMX" />
+      </div>
+    </div>
+  </main>
+
+  <section id="tours" class="section">
+    <div class="container">
+      <h2>Tours destacados</h2>
+      <p class="meta">Grupos pequeños · Duración 2–3 h · Español / Inglés</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Centro Histórico & Templo Mayor</h3>
+          <p>Ruta por vestigios de Tenochtitlan, simbología en fachadas coloniales y lectura visual de piezas clave.</p>
+          <p class="meta">Punto de encuentro: <strong>Catedral</strong> · Sábados 10:00</p>
+        </article>
+        <article class="card">
+          <h3>Tlatelolco: Tres Culturas</h3>
+          <p>Del mercado mexica a la memoria contemporánea: arqueología, plaza y relato crítico del espacio.</p>
+          <p class="meta">Domingos 10:00</p>
+        </article>
+        <article class="card">
+          <h3>Sur de la Cuenca</h3>
+          <p>Coyoacán y alrededores: iconografía, códices y continuidad cultural en barrios históricos.</p>
+          <p class="meta">Bajo reserva</p>
+        </article>
+      </div>
+
+      <div style="margin-top:18px" class="card">
+        <h3>Próximas fechas</h3>
+        <table class="table">
+          <thead><tr><th>Fecha</th><th>Tour</th><th>Cupos</th><th></th></tr></thead>
+          <tbody id="agenda-body">
+            <tr><td>Sab 23 Ago</td><td>Centro & Templo Mayor</td><td>6</td><td><a href="#reservar" class="btn">Reservar</a></td></tr>
+            <tr><td>Dom 24 Ago</td><td>Tlatelolco</td><td>8</td><td><a href="#reservar" class="btn">Reservar</a></td></tr>
+          </tbody>
+        </table>
+        <p class="meta">¿Grupo escolar o empresa? <a href="#reservar">Pide una fecha privada</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <div class="container about">
+      <div class="card">
+        <h2>Sobre Alan</h2>
+        <p>Artista visual y guía cultural. Investiga iconografía mexica y su diálogo con la ciudad contemporánea. Combina obra visual con mediación patrimonial para hacer la historia accesible y vibrante.</p>
+        <ul class="meta">
+          <li>+X años guiando en CDMX</li>
+          <li>Rutas curadas con enfoque visual y crítico</li>
+          <li>Experiencias para escuelas y turistas</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Testimonios</h2>
+        <p>“Una mirada fresca al Templo Mayor. Aprendí más en 2 horas que en varios museos.” — <em>María G.</em></p>
+        <p>“Contexto histórico + arte: la combinación perfecta.” — <em>Ernesto P.</em></p>
+        <p>“Ideal para grupos pequeños y familias.” — <em>Julia R.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2>Galería</h2>
+      <p class="meta">Obra visual y momentos de los recorridos</p>
+      <div class="gallery">
+        <img src="https://picsum.photos/seed/mez1/800/600" alt="Obra y recorrido 1">
+        <img src="https://picsum.photos/seed/mez2/800/600" alt="Obra y recorrido 2">
+        <img src="https://picsum.photos/seed/mez3/800/600" alt="Obra y recorrido 3">
+      </div>
+    </div>
+  </section>
+
+  <section id="preguntas" class="section">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>¿Qué incluye?</h3>
+          <p>Guía especializada, materiales visuales y recomendaciones de lectura. Entradas a recintos no incluidas salvo que se indique.</p>
+        </div>
+        <div class="card">
+          <h3>¿Idiomas?</h3>
+          <p>Español e inglés. Otros idiomas bajo cotización.</p>
+        </div>
+        <div class="card">
+          <h3>Política de cambios</h3>
+          <p>Reagenda sin costo hasta 24 h antes. Lluvia ligera: el tour sigue; clima extremo: reprogramación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reservar" class="cta">
+    <div class="container">
+      <h2>Reserva o pide una cotización</h2>
+      <p class="meta">Tiempo de respuesta habitual: &lt; 12 h</p>
+      <form onsubmit="event.preventDefault(); alert('¡Gracias! Tu solicitud fue enviada.'); this.reset();" name="ContactoAlan">
+        <div class="card" style="padding:18px">
+          <div style="display:grid; gap:12px; grid-template-columns:1fr 1fr">
+            <input name="nombre" placeholder="Tu nombre" required />
+            <input type="email" name="email" placeholder="Tu correo" required />
+            <input name="telefono" placeholder="WhatsApp (opcional)" />
+            <select name="tour">
+              <option value="Centro">Centro & Templo Mayor</option>
+              <option value="Tlatelolco">Tlatelolco</option>
+              <option value="Privado">Privado / Empresa</option>
+            </select>
+          </div>
+          <textarea name="mensaje" placeholder="Fecha deseada, número de personas y comentarios" required></textarea>
+          <button class="btn" type="submit">Enviar solicitud</button>
+          <p class="meta">También por correo: <a href="mailto:contacto@alanmontoya.mx">contacto@alanmontoya.mx</a></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Puntos de encuentro</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Catedral Metropolitana</h3>
+          <p class="meta">Av. 16 de Septiembre s/n, Centro</p>
+          <iframe title="Mapa Catedral" width="100%" height="220" style="border:0; border-radius:12px" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.481!2d-99.134!3d19.435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92f!2sCatedral%20Metropolitana!5e0!3m2!1ses!2smx!4v1680000000000"></iframe>
+        </div>
+        <div class="card">
+          <h3>Plaza de las Tres Culturas</h3>
+          <p class="meta">Tlatelolco</p>
+          <iframe title="Mapa Tlatelolco" width="100%" height="220" style="border:0; border-radius:12px" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.2!2d-99.142!3d19.417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92f!2sPlaza%20de%20las%20Tres%20Culturas!5e0!3m2!1ses!2smx!4v1680000000001"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a class="btn whatsapp" id="waBtn" href="#" target="_blank" rel="noopener">WhatsApp</a>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Alan Montoya · Arte & Tours. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script>
+    // Año dinámico
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // WhatsApp dinámico (reemplazar numeroMX con el real, e.g., 5215512345678)
+    const numeroMX = '5215512345678';
+    const wa = document.getElementById('waBtn');
+    const msg = encodeURIComponent('Hola Alan, me interesa un tour mexica. ¿Tienes fechas disponibles?');
+    wa.href = `https://wa.me/${numeroMX}?text=${msg}`;
+  </script>
+</body>
+</html>
